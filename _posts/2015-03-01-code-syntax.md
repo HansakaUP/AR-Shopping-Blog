@@ -1,9 +1,10 @@
 ---
 title: Technologies used
 ---
-To insert highlight code inside of a post, it's enough to use some specific tags, has directly described into the [Jekyll documentation](http://jekyllrb.com/docs/templates/#code-snippet-highlighting). In this way the code will be included into a ``.highlight`` CSS class and will be highlight according to the [syntax.scss](https://github.com/mojombo/tpw/blob/master/css/syntax.css) file. This is the standard style adopted by **Github** to highlight the code. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, aliquam magni et officiis nemo nihil aliquid placeat alias. Eum voluptates ducimus, nobis ex illum laboriosam quidem corrupti impedit ratione in voluptatum amet beatae facilis temporibus voluptate praesentium voluptatibus! At ab, iusto error amet eveniet debitis ipsa recusandae possimus minima sunt itaque, nulla ducimus officia, consequatur ipsum laudantium magnam hic fuga vero incidunt nostrum. Commodi, perspiciatis ut nostrum fugit nulla cumque voluptate harum nemo accusamus?
 
-This is a CSS example:
+
+example:
 {% highlight css linenos %}
 
 body {
@@ -17,20 +18,3 @@ h1 {
 
 {% endhighlight %}
 
-And this is a HTML example, with a linenumber:
-{% highlight html linenos %}
-
-<html>
-  <a href="example.com">Example</a>
-</html>
-
-{% endhighlight %}
-
-Last, a Ruby example:
-{% highlight ruby linenos %}
-
-def hello
-  puts "Hello World!"
-end
-
-{% endhighlight %}
